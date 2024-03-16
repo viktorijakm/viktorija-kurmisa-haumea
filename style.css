@@ -1,0 +1,62 @@
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #a7abd5;
+}
+
+#menu li {
+  float: left;
+}
+
+#menu li a {
+  display: block;
+  color: rgb(61, 71, 78);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#menu li a:hover {
+  color:rgb(233, 216, 216);
+  background-color: #111;
+}
+
+
+
+
+/* Style the header */
+header {
+  background-color: #39aa96;
+  padding: 30px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+/* Create two columns/boxes that floats next to each other */
+#Experience {
+  float: left;
+  width: 30%;
+  background: #ccc;
+  padding: 80px;
+}
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+}
+/* Style footer */
+footer {
+  text-align: left;
+  padding: 10px;
+  background-color: DarkSalmon;
+  color: white;
+}

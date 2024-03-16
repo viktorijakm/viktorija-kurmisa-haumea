@@ -1,0 +1,1 @@
+{"rule":"EN_UNPAIRED_BRACKETS","sentence":"^\\QViktorija Kurmisa <section id=\"About> <h2>About</h2> <p> Hello World, nice to meet you.\\E$"}
