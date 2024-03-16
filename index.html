@@ -3,36 +3,68 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>My project - Haumea</title>
   </head>
+
   <body>
-    <h1>Viktorija Kurmisa</h1>
-    <h2>About</h2>
-    <p>
-      Hello World, nice to meet you. As you can see, my reader, spelling of my
-      name is quite different. I am from Latvia - that is how we write it. So,
-      my name is pronounced the same as "Victoria".<br />
-      Besides my regular job, which is totally not IT field, I study coding. I
-      am learning how to create web pages. Learning JavaScript is quite
-      challenging.
-    </p>
-    <h2>Experience</h2>
-    <ul>
-      <li>Indelible Solutions</li>
-      <li>Electrosonic</li>
-      <li>World Disney World</li>
-    </ul>
-    <h2>Connect</h2>
-    <ul>
-      <li><a href="https://github.com/viktorijakm">My GitHub profile</a></li>
-      <li>
-        <a
-          href="https://www.linkedin.com/in/viktoria-kurmisa-65b4a9b1/"
-          title="Go to my linkedin profile"
-          >Visit me on LinkedIn</a
-        >
-      </li>
-      <li><a href="mailto:kmviktorija@gmail.com">Shoot me an email</a></li>
-    </ul>
+    <h1><strong>Viktorija Kurmisa</strong></h1>
+    <div id="menu"><ul>
+      <li><a href="about.asp">About</a></li>
+      <li><a href="experience.asp">Experience</a></li>
+      <li><a href="connect.asp">Connect</a></li>
+    </ul></div>
+    <header>
+      <section id="About">
+        <h2>About</h2>
+        <p>
+          Hello World, nice to meet you. As you can see, my reader, spelling of
+          my name is quite different. I am from Latvia - that is how we write
+          it. So, my name is pronounced the same as "Victoria".<br />
+          Besides my regular job, which is totally not IT field, I study coding.
+          I am learning how to create web pages. Learning JavaScript is quite
+          challenging.
+        </p>
+      </section>
+    </header>
+
+    <section id="Experience">
+      <h2>Experience</h2>
+      <nav>
+        <ul>
+          <li><a href="#indelible">Indelible Solutions</a></li>
+          <li><a href="#electrosonic">Electrosonic</a></li>
+          <li><a href="#">World Disney World</a></li>
+        </ul>
+      </nav>
+
+      <article>
+        <h1 id="indelible">Indelible Solutions</h1>
+        <p>.....</p>
+        <p>.....</p>
+        <h1 id="electrosonic">Electrosonic</h1>
+        <p>..eh..</p>
+        <p>...eg..</p>
+      </article>
+    </section>
+
+    <footer>
+      <section id="Connect">
+        <h2>Connect</h2>
+        <ul>
+          <li>
+            <a href="https://github.com/viktorijakm" target="_blank">My GitHub profile</a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/viktoria-kurmisa-65b4a9b1/" target="_blank"
+              title="Go to my linkedin profile"
+              >Visit me on LinkedIn</a
+            >
+          </li>
+          <li><a href="mailto:kmviktorija@gmail.com" target="_blank">Shoot me an email</a></li>
+        </ul>
+      </section>
+    </footer>
   </body>
 </html>
